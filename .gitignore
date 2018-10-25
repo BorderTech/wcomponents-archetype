@@ -1,3 +1,12 @@
+### WComponents ###
+*.dat
+SerializeText.txt
+junit-frames.xsl
+local_app.properties
+!src/main/resources/archetype-resources/local_app.properties
+
+### Maven ###
+# Created by https://www.gitignore.io/api/maven
 target/
 pom.xml.tag
 pom.xml.releaseBackup
@@ -7,6 +16,16 @@ release.properties
 dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties
-
 # Avoid ignoring Maven wrapper jar file (.jar files are usually ignored)
 !/.mvn/wrapper/maven-wrapper.jar
+# End of https://www.gitignore.io/api/maven
+
+################################################################################
+# Based on https://www.gitignore.io/api/eclipse
+### Eclipse
+### Required because some maven plugins build eclipse-like artefacts
+bin/
+.settings/
+.project
+.classpath
+################################################################################
